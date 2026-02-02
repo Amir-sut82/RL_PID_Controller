@@ -1,0 +1,13 @@
+# Parameters for motor_command
+motor_command:
+  ros__parameters:
+    wheel_radius: 0.10        # = r
+    wheel_separation: 0.46    # = w
+    initial_x: 0.0            # = x_position
+    initial_y: 0.0            # = y_position
+    initial_yaw: 0.0          # = theta
+    initial_linear_vel: 0.0
+    initial_angular_vel: 0.0
+    time_step: 0.02
+    cmd_vel_topic: "/cmd_vel"
+
